@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "TestMemory": "bombardier -c10 -n1000000000 http://localhost:8000",
+    "Bench10": "bombardier -c10 -n1000000 http://localhost:8000",
+    "Bench100": "bombardier -c100 -n1000000 http://localhost:8000",
+    "WhoUse8000": "lsof -i:8000"
+  },
+
+
+  "dependencies": {
+    "react": "^18.2.0"
+  }
+}

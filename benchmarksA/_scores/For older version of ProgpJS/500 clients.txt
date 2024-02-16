@@ -1,0 +1,8 @@
+Test:       bombardier -c500 -n1000000 http://localhost:8000
+
+    Résultats:
+        - Fiber     : 195775 req/sec
+        - BunJs     : 135905 req/sec
+        - DenoJS    : 120302 req/sec
+        - ProgpJS   : 108498 req/sec
+        - NodeJS    : HS
