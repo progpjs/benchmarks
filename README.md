@@ -1,0 +1,2 @@
+# benchmarks
+Allows benchmarking ProgpJS
